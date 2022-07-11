@@ -1,0 +1,49 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+    
+}
+*{
+    margin: 0 ;
+    padding: 0;
+    font-family: 'outfit',serif;
+    text-align: center;
+}
+body{
+    background-color: var(--LightGray);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+}
+
+.container{
+    background-color: var(--White);
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+img{
+    width: 90%;
+    max-width: 18rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    
+}
+
+h2{
+    font-weight: 700;
+    padding: 0 1rem;
+    color: var(--DarkBlue);
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 1rem 1.75rem;
+    color: var(--GrayishBlue);
+}
